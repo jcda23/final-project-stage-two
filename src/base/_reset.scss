@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+img {
+  height: auto;
+}
+
+.sticky {
+  flex-grow: 1;
+}

@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: $white-color;
+  justify-content: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+
+  .titulo-seccion {
+    background: $white-color;
+    color: $text-color;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .redes-sociales {
+    background: $white-color;
+    display: flex;
+    justify-content: center;
+
+    i {
+      color: $first-color;
+      font-size: 40px;
+      padding: 40px 20px;
+    }
+    i:hover {
+      color: $second-color;
+    }
+  }
+  .copy {
+    background: $second-color;
+    small {
+      display: flex;
+      justify-content: center;
+      color: $white-color;
+      font-size: 0.6rem;
+      padding: 0 0 20px 0;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin-bottom: 0;
+  }
+}
